@@ -1,0 +1,31 @@
+@keyframes color-change {
+    0% {
+      color: #34aadc(0, 255, 115);
+    }
+  
+    50% {
+      color: rgba(30, 45, 179, 0.749);
+    }
+  
+    100% {
+      color: #34aadc(9, 255, 0);
+    }
+}
+body {
+    font-family: Times,  sans-serif; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #66deca; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1:hover {
+    color: #34aadc; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    animation: color-change 6s infinite
+}
+h2 {
+    font-family: Georgia, sans-serif;
+    font-size: 30px;
+    animation: color-change 5s infinite; 
+    color: #56f4e4
+}
